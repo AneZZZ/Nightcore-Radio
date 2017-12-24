@@ -1,0 +1,20 @@
+[174.093723297] 2017-12-24 03:38:35,255 - INFO - launcher: Starting sanity checks
+[174.596071243] 2017-12-24 03:38:35,255 - INFO - launcher: Checking for python 3.5+
+[175.096988678] 2017-12-24 03:38:35,256 - INFO - launcher: Checking console encoding
+[175.598859787] 2017-12-24 03:38:35,256 - INFO - launcher: Setting console encoding to UTF-8
+[175.598859787] 2017-12-24 03:38:35,256 - INFO - launcher: Ensuring we're in the right folder
+[177.604913712] 2017-12-24 03:38:35,258 - INFO - launcher: Adding local bins/ folder to path
+[179.110765457] 2017-12-24 03:38:35,260 - INFO - launcher: Checks passed.
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[731.997013092] launcher-ERROR: Error starting bot
+Traceback (most recent call last):
+  File "C:\Users\anezi\Desktop\MusicBot-master\run.py", line 344, in main
+    from musicbot import MusicBot
+  File "C:\Users\anezi\Desktop\MusicBot-master\musicbot\__init__.py", line 6, in <module>
+    from discord.ext.commands.bot import _get_variable
+ModuleNotFoundError: No module named 'discord'
+[736.010551453] launcher-INFO: Attempting to install dependencies...
+[34519.704341888] launcher-INFO: Ok lets hope it worked
+[34522.213220596] launcher-INFO: All done.

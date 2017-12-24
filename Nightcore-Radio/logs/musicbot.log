@@ -1,0 +1,156 @@
+[57.194948196] 2017-12-24 03:43:24,959 - INFO - launcher: Starting sanity checks
+[57.194948196] 2017-12-24 03:43:24,959 - INFO - launcher: Checking for python 3.5+
+[57.696580887] 2017-12-24 03:43:24,959 - INFO - launcher: Checking console encoding
+[57.696580887] 2017-12-24 03:43:24,959 - INFO - launcher: Setting console encoding to UTF-8
+[57.696580887] 2017-12-24 03:43:24,959 - INFO - launcher: Ensuring we're in the right folder
+[59.202194214] 2017-12-24 03:43:24,961 - INFO - launcher: Adding local bins/ folder to path
+[60.205936432] 2017-12-24 03:43:24,962 - INFO - launcher: Checks passed.
+[60.707092285] 2017-12-24 03:43:24,962 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[3.7944970130920410] 2017-12-24 03:43:28,696 - DEBUG - musicbot.config | In config.py::MainThread(5928), line 254 in find_autoplaylist: Copying _autoplaylist.txt to autoplaylist.txt
+[3.7960031032562256] 2017-12-24 03:43:28,698 - INFO - musicbot.permissions | In permissions.py::MainThread(5928), line 34 in __init__: Permissions file not found, copying example_permissions.ini
+[4.1692757606506348] 2017-12-24 03:43:29,071 - DEBUG - musicbot.bot | In bot.py::MainThread(5928), line 203 in _setup_logging: Set logging level to INFO
+[4.1692757606506348] 2017-12-24 03:43:29,071 - INFO - musicbot.bot | In bot.py::MainThread(5928), line 76 in __init__: Loaded autoplaylist with 2531 entries
+[4.171282768] launcher-INFO: Connecting
+[7.0896553993225098] 2017-12-24 03:43:31,991 - DEBUG - musicbot.bot | In bot.py::MainThread(5928), line 993 in on_ready: Connection established, ready to go.
+[7.0901560783386230] 2017-12-24 03:43:31,992 - DEBUG - musicbot.bot | In bot.py::MainThread(5928), line 314 in _cache_app_info: Caching app info
+[7.2297155857086182] 2017-12-24 03:43:32,131 - DEBUG - musicbot.bot | In bot.py::MainThread(5928), line 810 in _scheck_ensure_env: Ensuring data folders exist
+[7.2327270507812500] 2017-12-24 03:43:32,134 - DEBUG - musicbot.bot | In bot.py::MainThread(5928), line 826 in _scheck_server_permissions: Checking server permissions
+[7.2327270507812500] 2017-12-24 03:43:32,134 - DEBUG - musicbot.bot | In bot.py::MainThread(5928), line 830 in _scheck_autoplaylist: Auditing autoplaylist
+[7.2327270507812500] 2017-12-24 03:43:32,134 - DEBUG - musicbot.bot | In bot.py::MainThread(5928), line 834 in _scheck_configs: Validating config
+[7.2332274913787842] 2017-12-24 03:43:32,135 - DEBUG - musicbot.config | In config.py::MainThread(5928), line 175 in async_validate: Validating options...
+[7.2332274913787842] 2017-12-24 03:43:32,135 - DEBUG - musicbot.bot | In bot.py::MainThread(5928), line 837 in _scheck_configs: Validating permissions config
+[7.2332274913787842] 2017-12-24 03:43:32,135 - DEBUG - musicbot.permissions | In permissions.py::MainThread(5928), line 59 in async_validate: Validating permissions...
+[7.2332274913787842] 2017-12-24 03:43:32,135 - INFO - musicbot.bot | In bot.py::MainThread(5928), line 1004 in on_ready: Connected!  Musicbot v1.9.6
+
+[7.2342307567596436] 2017-12-24 03:43:32,136 - INFO - musicbot.bot | In bot.py::MainThread(5928), line 1014 in on_ready: Bot:   394281514151575552/Nightcore Radio#6525 [BOT]
+[7.2342307567596436] 2017-12-24 03:43:32,136 - INFO - musicbot.bot | In bot.py::MainThread(5928), line 1022 in on_ready: Owner: 273127851392499712/AneZ#3098
+
+[7.2347328662872314] 2017-12-24 03:43:32,136 - INFO - musicbot.bot | In bot.py::MainThread(5928), line 1025 in on_ready: Server List:
+[7.2352337837219238] 2017-12-24 03:43:32,137 - INFO - musicbot.bot | In bot.py::MainThread(5928), line 1026 in <listcomp>:  - GUCCI GANG
+[7.2352337837219238] 2017-12-24 03:43:32,137 - INFO - musicbot.bot | In bot.py::MainThread(5928), line 1070 in on_ready: Not bound to any text channels
+[7.2357363700866699] 2017-12-24 03:43:32,137 - INFO - musicbot.bot | In bot.py::MainThread(5928), line 1096 in on_ready: Not autojoining any voice channels
+[7.2362384796142578] 2017-12-24 03:43:32,138 - INFO - musicbot.bot | In bot.py::MainThread(5928), line 1100 in on_ready: Options:
+[7.2367424964904785] 2017-12-24 03:43:32,138 - INFO - musicbot.bot | In bot.py::MainThread(5928), line 1102 in on_ready:   Command prefix: !!
+[7.2367424964904785] 2017-12-24 03:43:32,138 - INFO - musicbot.bot | In bot.py::MainThread(5928), line 1103 in on_ready:   Default volume: 25%
+[7.2372438907623291] 2017-12-24 03:43:32,139 - INFO - musicbot.bot | In bot.py::MainThread(5928), line 1105 in on_ready:   Skip threshold: 4 votes or 50%
+[7.2377433776855469] 2017-12-24 03:43:32,139 - INFO - musicbot.bot | In bot.py::MainThread(5928), line 1106 in on_ready:   Now Playing @mentions: Disabled
+[7.2382450103759766] 2017-12-24 03:43:32,140 - INFO - musicbot.bot | In bot.py::MainThread(5928), line 1107 in on_ready:   Auto-Summon: Enabled
+[7.2387485504150391] 2017-12-24 03:43:32,140 - INFO - musicbot.bot | In bot.py::MainThread(5928), line 1108 in on_ready:   Auto-Playlist: Enabled
+[7.2387485504150391] 2017-12-24 03:43:32,140 - INFO - musicbot.bot | In bot.py::MainThread(5928), line 1109 in on_ready:   Auto-Pause: Enabled
+[7.2392487525939941] 2017-12-24 03:43:32,141 - INFO - musicbot.bot | In bot.py::MainThread(5928), line 1110 in on_ready:   Delete Messages: Enabled
+[7.2402536869049072] 2017-12-24 03:43:32,142 - INFO - musicbot.bot | In bot.py::MainThread(5928), line 1112 in on_ready:     Delete Invoking: Disabled
+[7.2417566776275635] 2017-12-24 03:43:32,143 - INFO - musicbot.bot | In bot.py::MainThread(5928), line 1113 in on_ready:   Debug Mode: Disabled
+[7.2482786178588867] 2017-12-24 03:43:32,150 - INFO - musicbot.bot | In bot.py::MainThread(5928), line 1114 in on_ready:   Downloaded songs will be saved
+[7.2497839927673340] 2017-12-24 03:43:32,151 - INFO - musicbot.bot | In bot.py::MainThread(5928), line 248 in _join_startup_channels: Found owner in "AneZ"
+[7.2512900829315186] 2017-12-24 03:43:32,153 - INFO - musicbot.bot | In bot.py::MainThread(5928), line 257 in _join_startup_channels: Attempting to join GUCCI GANG/AneZ
+[7.2517910003662109] 2017-12-24 03:43:32,153 - DEBUG - musicbot.bot | In bot.py::MainThread(5928), line 427 in get_voice_client: Connection attempt 1 to AneZ
+[7.2522919178009033] 2017-12-24 03:43:32,154 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(5928), line 366 in join_voice_channel: (join_voice_channel) creating futures
+[7.2522919178009033] 2017-12-24 03:43:32,154 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(5928), line 372 in join_voice_channel: (join_voice_channel) setting voice state
+[7.2527937889099121] 2017-12-24 03:43:32,154 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(5928), line 375 in join_voice_channel: (join_voice_channel) waiting for session id
+[7.3877770900726318] 2017-12-24 03:43:32,289 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(5928), line 2528 in on_voice_state_update: Voice state update for 394281514151575552/Nightcore Radio#6525 on GUCCI GANG/AneZ -> [JOIN, CONNECT]
+[7.3882782459259033] 2017-12-24 03:43:32,290 - INFO - musicbot.bot | In bot.py::MainThread(5928), line 2539 in on_voice_state_update: 394281514151575552/Nightcore Radio#6525 has joined GUCCI GANG/AneZ
+[7.3892819881439209] 2017-12-24 03:43:32,291 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(5928), line 379 in join_voice_channel: (join_voice_channel) waiting for voice data
+[7.5124082565307617] 2017-12-24 03:43:32,414 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(5928), line 393 in join_voice_channel: (join_voice_channel) connecting...
+[7.7912890911102295] 2017-12-24 03:43:32,693 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(5928), line 405 in join_voice_channel: (join_voice_channel) connection successful
+[7.7912890911102295] 2017-12-24 03:43:32,693 - DEBUG - musicbot.bot | In bot.py::MainThread(5928), line 453 in get_voice_client: Connected in 0.5s
+[7.7912890911102295] 2017-12-24 03:43:32,693 - INFO - musicbot.bot | In bot.py::MainThread(5928), line 454 in get_voice_client: Connected to GUCCI GANG/AneZ
+[7.7922928333282471] 2017-12-24 03:43:32,694 - INFO - musicbot.bot | In bot.py::MainThread(5928), line 273 in _join_startup_channels: Joined GUCCI GANG/AneZ
+[7.8078460693359375] 2017-12-24 03:43:32,709 - VOICEDEBUG - musicbot.player | In player.py::MainThread(5928), line 311 in websocket_check: Starting websocket check loop for GUCCI GANG
+[10.7592151165008545] 2017-12-24 03:43:35,661 - INFO - musicbot.entry | In entry.py::MainThread(5928), line 219 in _really_download: Download started: https://youtube.com/watch?v=o0vDydAHGp0
+[12.6015880107879639] 2017-12-24 03:43:37,503 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(5928), line 2528 in on_voice_state_update: Voice state update for 273127851392499712/AneZ#3098 on GUCCI GANG/AneZ -> [UNMUTE, UNDEAFEN]
+[17.4905817508697510] 2017-12-24 03:43:42,392 - INFO - musicbot.entry | In entry.py::MainThread(5928), line 226 in _really_download: Download complete: https://youtube.com/watch?v=o0vDydAHGp0
+[17.4956009387969971] 2017-12-24 03:43:42,397 - FFMPEG - musicbot.player | In player.py::MainThread(5928), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-o0vDydAHGp0-Gnomoria_Soundtrack_-_Classic_-_Sound_of_the_Underground.m4a
+[17.6069796085357666] 2017-12-24 03:43:42,509 - DEBUG - musicbot.bot | In bot.py::MainThread(5928), line 763 in serialize_queue: Serializing queue for 298179830858645516
+[44.7632083892822266] 2017-12-24 03:44:09,665 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(5928), line 2528 in on_voice_state_update: Voice state update for 273127851392499712/AneZ#3098 on GUCCI GANG/AneZ -> [MUTE, DEAFEN]
+[81.6170239448547363] 2017-12-24 03:44:46,519 - INFO - musicbot.bot | In bot.py::MainThread(5928), line 2359 in on_message: 273127851392499712/AneZ#3098: !!play https://www.youtube.com/watch?v=DzNPBqcJGk4
+[85.0049171447753906] 2017-12-24 03:44:49,906 - DEBUG - musicbot.bot | In bot.py::MainThread(5928), line 763 in serialize_queue: Serializing queue for 298179830858645516
+[92.6693274974822998] 2017-12-24 03:44:57,571 - INFO - musicbot.bot | In bot.py::MainThread(5928), line 2359 in on_message: 273127851392499712/AneZ#3098: !!skip
+[92.6888942718505859] 2017-12-24 03:44:57,590 - FFMPEG - musicbot.player | In player.py::MainThread(5928), line 268 in _play: Creating player with options: -nostdin -vn https://manifest.googlevideo.com/api/manifest/hls_playlist/id/DzNPBqcJGk4.0/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/cmbypass/yes/goi/160/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/hls_chunk_host/r4---sn-5hnednlk.googlevideo.com/ei/oBQ_WqG0FYXT1wLHg5rwDg/gcr/de/playlist_type/DVR/mm/32/mn/sn-5hnednlk/ms/lv/mv/m/pl/21/dover/6/mt/1514083391/ip/178.9.135.156/ipbits/0/expire/1514105088/sparams/ip,ipbits,expire,id,itag,source,requiressl,ratebypass,live,cmbypass,goi,sgoap,sgovp,hls_chunk_host,ei,gcr,playlist_type,mm,mn,ms,mv,pl/signature/587D2A96772B01D2FEDEDD1ADC6F23DC878E29AD.19D34E778D98E4BF214446AFDB7C6D399A14FBD9/key/dg_yt0/playlist/index.m3u8
+[92.8589751720428467] 2017-12-24 03:44:57,761 - DEBUG - musicbot.bot | In bot.py::MainThread(5928), line 763 in serialize_queue: Serializing queue for 298179830858645516
+[92.8614852428436279] 2017-12-24 03:44:57,763 - DEBUG - musicbot.bot | In bot.py::MainThread(5928), line 763 in serialize_queue: Serializing queue for 298179830858645516
+[94.8199558258056641] 2017-12-24 03:44:59,722 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 08b78ea0] The TLS connection was non-properly terminated.\r\n'
+[96.3860104084014893] 2017-12-24 03:45:01,288 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(5928), line 2528 in on_voice_state_update: Voice state update for 273127851392499712/AneZ#3098 on GUCCI GANG/AneZ -> [UNMUTE, UNDEAFEN]
+[96.8193874359130859] 2017-12-24 03:45:01,721 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 090864e0] The TLS connection was non-properly terminated.\r\n'
+[98.8198158740997314] 2017-12-24 03:45:03,721 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09085e20] The TLS connection was non-properly terminated.\r\n'
+[100.7993123531341553] 2017-12-24 03:45:05,701 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09085d00] The TLS connection was non-properly terminated.\r\n'
+[102.8391990661621094] 2017-12-24 03:45:07,741 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09086060] The TLS connection was non-properly terminated.\r\n'
+[104.8196918964385986] 2017-12-24 03:45:09,721 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09086ba0] The TLS connection was non-properly terminated.\r\n'
+[106.8198437690734863] 2017-12-24 03:45:11,721 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09086600] The TLS connection was non-properly terminated.\r\n'
+[108.7994544506072998] 2017-12-24 03:45:13,701 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09085e20] The TLS connection was non-properly terminated.\r\n'
+[110.8199958801269531] 2017-12-24 03:45:15,722 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 090863c0] The TLS connection was non-properly terminated.\r\n'
+[112.8397865295410156] 2017-12-24 03:45:17,741 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09086960] The TLS connection was non-properly terminated.\r\n'
+[114.8199045658111572] 2017-12-24 03:45:19,721 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09086b00] The TLS connection was non-properly terminated.\r\n'
+[116.8194782733917236] 2017-12-24 03:45:21,721 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 090867a0] The TLS connection was non-properly terminated.\r\n'
+[118.8386654853820801] 2017-12-24 03:45:23,740 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09085fc0] The TLS connection was non-properly terminated.\r\n'
+[120.8397669792175293] 2017-12-24 03:45:25,741 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 090869e0] The TLS connection was non-properly terminated.\r\n'
+[122.7992753982543945] 2017-12-24 03:45:27,701 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 090863c0] The TLS connection was non-properly terminated.\r\n'
+[124.7998909950256348] 2017-12-24 03:45:29,701 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09086320] The TLS connection was non-properly terminated.\r\n'
+[126.8201484680175781] 2017-12-24 03:45:31,722 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 090860e0] The TLS connection was non-properly terminated.\r\n'
+[128.8393013477325439] 2017-12-24 03:45:33,741 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 090864e0] The TLS connection was non-properly terminated.\r\n'
+[130.7993893623352051] 2017-12-24 03:45:35,701 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09086200] The TLS connection was non-properly terminated.\r\n'
+[132.8191578388214111] 2017-12-24 03:45:37,721 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09086720] The TLS connection was non-properly terminated.\r\n'
+[134.8397130966186523] 2017-12-24 03:45:39,741 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09086560] The TLS connection was non-properly terminated.\r\n'
+[136.8192851543426514] 2017-12-24 03:45:41,721 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09085d80] The TLS connection was non-properly terminated.\r\n'
+[138.8197703361511230] 2017-12-24 03:45:43,721 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09086560] The TLS connection was non-properly terminated.\r\n'
+[140.8192420005798340] 2017-12-24 03:45:45,721 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09086ba0] The TLS connection was non-properly terminated.\r\n'
+[142.8391227722167969] 2017-12-24 03:45:47,741 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09086600] The TLS connection was non-properly terminated.\r\n'
+[144.8394062519073486] 2017-12-24 03:45:49,741 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09086560] The TLS connection was non-properly terminated.\r\n'
+[148.0851306915283203] 2017-12-24 03:45:52,987 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09086960] The TLS connection was non-properly terminated.\r\n'
+[148.8192722797393799] 2017-12-24 03:45:53,721 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09086a80] The TLS connection was non-properly terminated.\r\n'
+[150.8397898674011230] 2017-12-24 03:45:55,741 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09086200] The TLS connection was non-properly terminated.\r\n'
+[152.8197360038757324] 2017-12-24 03:45:57,721 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09086680] The TLS connection was non-properly terminated.\r\n'
+[154.7997958660125732] 2017-12-24 03:45:59,701 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09085d80] The TLS connection was non-properly terminated.\r\n'
+[156.8005278110504150] 2017-12-24 03:46:01,702 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09085f40] The TLS connection was non-properly terminated.\r\n'
+[158.8397743701934814] 2017-12-24 03:46:03,741 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 090864e0] The TLS connection was non-properly terminated.\r\n'
+[160.8393480777740479] 2017-12-24 03:46:05,741 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 090868c0] The TLS connection was non-properly terminated.\r\n'
+[162.8191478252410889] 2017-12-24 03:46:07,721 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 090869e0] The TLS connection was non-properly terminated.\r\n'
+[164.8197090625762939] 2017-12-24 03:46:09,721 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09086060] The TLS connection was non-properly terminated.\r\n'
+[166.8195300102233887] 2017-12-24 03:46:11,721 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09086440] The TLS connection was non-properly terminated.\r\n'
+[168.8398509025573730] 2017-12-24 03:46:13,741 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09085ea0] The TLS connection was non-properly terminated.\r\n'
+[170.7991745471954346] 2017-12-24 03:46:15,701 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09086440] The TLS connection was non-properly terminated.\r\n'
+[172.8003118038177490] 2017-12-24 03:46:17,702 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09086680] The TLS connection was non-properly terminated.\r\n'
+[174.8391432762145996] 2017-12-24 03:46:19,741 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09086720] The TLS connection was non-properly terminated.\r\n'
+[176.8195481300354004] 2017-12-24 03:46:21,721 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09086320] The TLS connection was non-properly terminated.\r\n'
+[178.8193979263305664] 2017-12-24 03:46:23,721 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09086680] The TLS connection was non-properly terminated.\r\n'
+[180.9427528381347656] 2017-12-24 03:46:25,844 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09086180] The TLS connection was non-properly terminated.\r\n'
+[182.8198180198669434] 2017-12-24 03:46:27,721 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09086440] The TLS connection was non-properly terminated.\r\n'
+[184.8393654823303223] 2017-12-24 03:46:29,741 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 090863c0] The TLS connection was non-properly terminated.\r\n'
+[186.8194124698638916] 2017-12-24 03:46:31,721 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09085d00] The TLS connection was non-properly terminated.\r\n'
+[188.8193030357360840] 2017-12-24 03:46:33,721 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09085fc0] The TLS connection was non-properly terminated.\r\n'
+[190.8398320674896240] 2017-12-24 03:46:35,741 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09085f40] The TLS connection was non-properly terminated.\r\n'
+[192.8397870063781738] 2017-12-24 03:46:37,741 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09086960] The TLS connection was non-properly terminated.\r\n'
+[194.8195943832397461] 2017-12-24 03:46:39,721 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09085d00] The TLS connection was non-properly terminated.\r\n'
+[196.7999572753906250] 2017-12-24 03:46:41,702 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09086180] The TLS connection was non-properly terminated.\r\n'
+[198.8391525745391846] 2017-12-24 03:46:43,741 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09086b00] The TLS connection was non-properly terminated.\r\n'
+[200.8429770469665527] 2017-12-24 03:46:45,745 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09086840] The TLS connection was non-properly terminated.\r\n'
+[202.7999114990234375] 2017-12-24 03:46:47,701 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 090860e0] The TLS connection was non-properly terminated.\r\n'
+[204.8191323280334473] 2017-12-24 03:46:49,721 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09086a80] The TLS connection was non-properly terminated.\r\n'
+[206.8396315574645996] 2017-12-24 03:46:51,741 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09086680] The TLS connection was non-properly terminated.\r\n'
+[208.8398764133453369] 2017-12-24 03:46:53,741 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 090860e0] The TLS connection was non-properly terminated.\r\n'
+[210.8188092708587646] 2017-12-24 03:46:55,720 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 090869e0] The TLS connection was non-properly terminated.\r\n'
+[212.7998237609863281] 2017-12-24 03:46:57,701 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09086560] The TLS connection was non-properly terminated.\r\n'
+[214.8195593357086182] 2017-12-24 03:46:59,721 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09085f40] The TLS connection was non-properly terminated.\r\n'
+[216.8308289051055908] 2017-12-24 03:47:01,732 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09085d80] The TLS connection was non-properly terminated.\r\n'
+[218.8195724487304688] 2017-12-24 03:47:03,721 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09086a80] The TLS connection was non-properly terminated.\r\n'
+[220.7992827892303467] 2017-12-24 03:47:05,701 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 090868c0] The TLS connection was non-properly terminated.\r\n'
+[222.8191795349121094] 2017-12-24 03:47:07,721 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09086560] The TLS connection was non-properly terminated.\r\n'
+[224.8194520473480225] 2017-12-24 03:47:09,721 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09085f40] The TLS connection was non-properly terminated.\r\n'
+[226.8191704750061035] 2017-12-24 03:47:11,721 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 090864e0] The TLS connection was non-properly terminated.\r\n'
+[228.8199040889739990] 2017-12-24 03:47:13,721 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09086b00] The TLS connection was non-properly terminated.\r\n'
+[230.8399238586425781] 2017-12-24 03:47:15,741 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09085f40] The TLS connection was non-properly terminated.\r\n'
+[232.8197207450866699] 2017-12-24 03:47:17,721 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09086840] The TLS connection was non-properly terminated.\r\n'
+[234.7991335391998291] 2017-12-24 03:47:19,701 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09086720] The TLS connection was non-properly terminated.\r\n'
+[236.7997641563415527] 2017-12-24 03:47:21,701 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 090864e0] The TLS connection was non-properly terminated.\r\n'
+[238.8397576808929443] 2017-12-24 03:47:23,741 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09085ea0] The TLS connection was non-properly terminated.\r\n'
+[240.8391928672790527] 2017-12-24 03:47:25,741 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09086320] The TLS connection was non-properly terminated.\r\n'
+[242.8002991676330566] 2017-12-24 03:47:27,702 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 090867a0] The TLS connection was non-properly terminated.\r\n'
+[244.8201508522033691] 2017-12-24 03:47:29,722 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09085d80] The TLS connection was non-properly terminated.\r\n'
+[246.8395936489105225] 2017-12-24 03:47:31,741 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09086720] The TLS connection was non-properly terminated.\r\n'
+[248.8396570682525635] 2017-12-24 03:47:33,741 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09086060] The TLS connection was non-properly terminated.\r\n'
+[250.7998390197753906] 2017-12-24 03:47:35,701 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09085d00] The TLS connection was non-properly terminated.\r\n'
+[252.7997317314147949] 2017-12-24 03:47:37,701 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09086a80] The TLS connection was non-properly terminated.\r\n'
+[254.8196887969970703] 2017-12-24 03:47:39,721 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 090862a0] The TLS connection was non-properly terminated.\r\n'
+[256.8396553993225098] 2017-12-24 03:47:41,741 - FFMPEG - musicbot.player | In player.py::Thread-10 stderr reader(3164), line 409 in filter_stderr: Data from ffmpeg: b'[tls @ 09086180] The TLS connection was non-properly terminated.\r\n'
